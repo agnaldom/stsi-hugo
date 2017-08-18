@@ -1,0 +1,44 @@
+baseurl = "http://example.org"
+title = "Semana de Tecnologia e Sistema de Informação"
+theme = "dimension"
+languageCode = "pt-br"
+defaultContentLanguage = "pt"
+enableRobotsTXT = true
+disableRSS = true
+publishDir = "docs"
+
+[params]
+  title = "Semana de Tecnologia e Segurança da Informação"
+  description = '<!--[--><h3>Local: Centro de Tecnologia de Informação e Comunicação - CTIC/UFPA <!--]--><br /> 
+                <!--[-->Período: 25 a 29 de Setembro<!--]--><br />
+                <!--[-->Horário: 8h às 12h / 14h às 18h00<!--]-->'
+  logo = "fa-user-secret"
+  copyright = "Untitled"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "https://www.facebook.com/cssictic/"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "#"
+
+[languages]
+[languages.en]
+languageName = "Português"
+weight = 1
+title = "Semana de Tecnologia e Segurança da Informação"
+
+[languages.de]
+languageName = "English"
+weight = 2
+title = "Dimension"
+description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
+                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
